@@ -245,6 +245,11 @@ h2.produtos-mineiro::before {
     margin: 20px auto 0 auto;
 }
 
+.produtos-btn:hover {
+    color: #c17139;
+    border-color: #c17139;
+}
+
 /* Produtos responsividade tablet*/
 @media (min-width: 740px) and (max-width: 980px){
     .produtos-item {
@@ -311,6 +316,11 @@ h2.produtos-mineiro::before {
     border: 3px solid;
     color: #252525;
     padding: 10px 20px;
+}
+
+.locais-item a:hover {
+    color: #c17139;
+    border-color: #c17139;
 }
 
 /* Locais responsividade tablet*/
@@ -387,6 +397,10 @@ h2.produtos-mineiro::before {
     padding: 13px 0;
     color: #fff;
     cursor: pointer;
+}
+
+.assine button:hover {
+    background: #c17139;
 }
 
 /* Assine responsividade tablet*/
